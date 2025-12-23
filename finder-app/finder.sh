@@ -24,4 +24,4 @@ X=$(grep -rl $searchstr $filesdir | wc -l )
 
 Y=$(grep -r $searchstr $filesdir | wc -l )
 
-echo "The number of files are"$X" and the number of matching lines are"$Y
+echo "The number of files are ${X} and the number of matching lines are ${Y}"
